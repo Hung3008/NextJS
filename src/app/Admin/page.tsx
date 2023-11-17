@@ -22,6 +22,9 @@ export default function Home() {
                                                 <a href="">THANH TOÁN</a></li>
                                             <li id="menu-item-460" className={style1["menu-item menu-item-type-post_type menu-item-object-page menu-item-460"]}>
                                                 <a href="">GIỎ HÀNG</a></li>
+                                            <li id="menu-item-460" className={style1["menu-item menu-item-type-post_type menu-item-object-page menu-item-460"]}>
+                                                <a href="">GIỎ HÀNG1</a></li><li id="menu-item-460" className={style1["menu-item menu-item-type-post_type menu-item-object-page menu-item-460"]}>
+                                                <a href="">GIỎ HÀNG2</a></li>
                                         </ul>
                                     </div>
                                 </nav>
