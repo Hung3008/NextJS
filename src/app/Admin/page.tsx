@@ -1,15 +1,15 @@
 import React from 'react';
-import { FaShoppingBag, FaUser, FaPaw } from 'react-icons/fa';
-import style1 from '../style/app.module.css'
+import { FaShoppingBag, FaUser, FaPaw, FaSearch } from 'react-icons/fa';
+// import style1 from '../style/app.module.css'
+// import headerCss from './components/acx.css'
+import '@/styles1/header.css';
 
-
-
+// import '@/Admin/styles/abc.css'
 export default function Home() {
     return (
         <body>
-            <main className={style1['header']}>
-                <div className={style1['banner']}>
-                </div>
+            <main className='header'>
+                <div className='banner'></div>
                 <div className='menu'>
                     <li>NAM</li>
                     <li>NỮ</li>
@@ -20,22 +20,26 @@ export default function Home() {
 
                 <div className='others'>
                     <div>
+                        <li><input type="text" /></li><a href=''><FaSearch /></a>
+                    </div>
+                    <div>
                         <a href=''>
-                            <FaPaw />
+                            <li><FaPaw /></li>
                         </a>
                     </div>
                     <div>
                         <a href=''>
-                            <FaUser />
+                            <li><FaUser /></li>
                         </a>
                     </div>
                     <div>
                         <a href=''>
-                            <FaShoppingBag />
+                            <li> <FaShoppingBag /></li>
                         </a>
                     </div>
                 </div>
             </main>
+
         </body>
     );
 

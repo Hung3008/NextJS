@@ -1,13 +1,13 @@
 // pages/index.js
 import React from 'react';
 
-import style1 from '../style/app.module.css'
+
 
 export default function Home() {
     return (
         <body>
             <main className='header'>
-                <div className={style1['banner']}>
+                <div className='banner'>
 
                 </div>
                 <div className='menu'>
