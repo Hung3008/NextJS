@@ -2,9 +2,9 @@ import React from 'react';
 import { FaShoppingBag, FaUser, FaPaw, FaSearch } from 'react-icons/fa';
 // import style1 from '../style/app.module.css'
 // import headerCss from './components/acx.css'
-import '@/styles1/header.css';
+import '@/styles/header.css';
 
-// import '@/Admin/styles/abc.css'
+
 export default function Home() {
     return (
         <body>

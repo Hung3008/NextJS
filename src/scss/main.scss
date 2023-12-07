@@ -1,0 +1,11 @@
+// _variables.scss
+$primary-color: #3498db;
+
+// _styles.scss
+body {
+    background-color: $primary-color;
+}
+
+// main.scss
+// @import 'variables';
+@import 'header';
