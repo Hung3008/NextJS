@@ -1,7 +1,6 @@
 import React from 'react';
 import { FaShoppingBag, FaUser, FaPaw, FaSearch } from 'react-icons/fa';
 // import style1 from '../style/app.module.css'
-// import headerCss from './components/acx.css'
 import '@/styles/header.css';
 
 
